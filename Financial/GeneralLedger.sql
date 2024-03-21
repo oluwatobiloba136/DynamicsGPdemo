@@ -1,18 +1,5 @@
--- Write your own SQL object definition here, and it'll be included in your package.
-USE [TWO16]
-GO
-
-/****** Object:  View [tk].[vw_GLTXR]    Script Date: 3/21/2024 8:54:08 AM ******/
-SET ANSI_NULLS ON
-GO
-
-SET QUOTED_IDENTIFIER ON
-GO
-
-
-CREATE OR ALTER   VIEW [tk].[GLTXR]
-AS
-WITH CombinedTransactions AS (
+CREATE VIEW [dbo].[vwGeneralLedger]
+  AS WITH CombinedTransactions AS (
     SELECT
         ACTINDX,
         OPENYEAR AS YEAR1,
