@@ -1,3 +1,5 @@
+
+
 CREATE VIEW [dbo].[vwGeneralAccount]
  AS
 	Select distinct

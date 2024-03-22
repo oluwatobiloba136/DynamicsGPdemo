@@ -1,0 +1,3 @@
+USE TWO16
+GO
+CREATE SCHEMA silver
