@@ -1,4 +1,4 @@
-CREATE VIEW [dbo].[vwGeneralLedger]
+CREATE VIEW [silver].[vwGeneralLedger]
   AS WITH CombinedTransactions AS (
     SELECT
         ACTINDX,

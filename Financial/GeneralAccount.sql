@@ -1,6 +1,6 @@
 
 
-CREATE VIEW [dbo].[vwGeneralAccount]
+CREATE VIEW [silver].[vwGeneralAccount]
  AS
 	Select distinct
     CONCAT(rtrim([ACTNUMBR_1]), '-', rtrim([ACTNUMBR_2]), '-', rtrim([ACTNUMBR_3])) as ACCTIDNUM
